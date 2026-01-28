@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "npm run build --workspaces",
-    "start": "concurrently -n \"backend,frontend\" -c \"blue,green\" \"PORT=5000 npm run start --workspace=backend\" \"PORT=3000 npm run start --workspace=frontend\"",
+    "start": "concurrently -n \"backend,frontend\" -c \"blue,green\" \"npm run start --workspace=backend\" \"npm run start --workspace=frontend\"",
     "compose": "docker compose -f docker-compose.yaml -p document-manager up --build"
   },
   "repository": {
