@@ -57,6 +57,8 @@ npm start
 | Username  | `admin`                  |
 | Password  | `admin`                  |
 
+---
+
 ## Demo
 
 ![Document Manager Demo](./docs/videos/demo.gif)
